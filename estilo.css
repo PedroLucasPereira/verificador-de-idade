@@ -1,0 +1,33 @@
+body {
+    background: rgb(253, 249, 249);
+    font: normal 15pt Arial;
+    color: rgb(0, 0, 0);
+}
+
+header {
+    color: rgb(0, 0, 0);
+    text-align: center;
+}
+
+section {
+    background-color: rgba(87, 137, 211, 0.879);
+    border-radius: 10px;
+    padding: 15px;
+    width: 500px;
+    margin: auto;
+    box-shadow: 5px 3px 10px black;
+    text-align: center; /* centraliza conteúdo dentro do section */
+}
+
+#foto {
+    width: 200px;      /* define a largura da imagem */
+    height: auto;       /* mantém proporção */
+    border-radius: 10px; /* deixa a imagem arredondada (opcional) */
+    margin-top: 10px;   /* espaço acima da imagem */
+}
+
+footer {
+    color: rgb(24, 16, 16);
+    text-align: center;
+    font-style: italic;
+}
